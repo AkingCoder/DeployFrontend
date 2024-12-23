@@ -3,7 +3,7 @@ import { Link, NavLink, useNavigate } from 'react-router-dom';
 import Button from './Button';
 import { useSelector } from 'react-redux';
 import LogoutBtn from './LogoutBtn';
-import SearchComponent from './searchComponent';
+import SearchComponent from './SearchComponent';
 
 const Navbar = () => {
   const isLoggedIn = useSelector((state) => state.auth.status);
