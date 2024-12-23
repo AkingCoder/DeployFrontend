@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import useGetAllPosts from "../hooks/postHooks/useGetAllPosts";
 import InfiniteScroll from "react-infinite-scroll-component";
-import SearchComponent from "./searchComponent";
+import SearchComponent from './SearchComponent';
 
 const AllBlogsComponent = () => {
   const navigate = useNavigate();
